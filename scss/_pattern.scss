@@ -1,0 +1,17 @@
+*{
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%
+}
+
+body{
+    background-color: $dark-blue-gray;
+    max-height: 100vh;
+}
+
+.page{
+    width: 100rem;
+    margin: 0 auto;
+}

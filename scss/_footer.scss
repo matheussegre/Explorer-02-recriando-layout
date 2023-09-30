@@ -1,0 +1,19 @@
+footer{
+    text-align: center;
+    .line{
+        width: 56rem;
+        border: 1px solid $green;
+        margin: 0 auto;
+    }
+    span{
+        display: inline-block;
+        margin-top: 2.7rem;
+        color: #FFF;
+        text-align: center;
+        font-family: JetBrains Mono, 'sans-serif';
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.8rem; /* 200% */
+    }
+}

@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+header ul li {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: JetBrains Mono, "sans-serif";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.8rem; /* 200% */
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  margin-top: 11rem;
+  margin-bottom: 13rem;
+}
+main .texto {
+  width: 100%;
+  max-width: 609px;
+  height: 267px;
+}
+main .texto h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono, "sans-serif";
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4rem; /* 111.111% */
+}
+main .texto p {
+  color: #C2C2C2;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8rem; /* 175% */
+}
+main .texto span {
+  color: #00BFA6;
+}
+
+#Padlock {
+  position: fixed;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+}
+footer .line {
+  width: 56rem;
+  border: 1px solid #00BFA6;
+  margin: 0 auto;
+}
+footer span {
+  display: inline-block;
+  margin-top: 2.7rem;
+  color: #FFF;
+  text-align: center;
+  font-family: JetBrains Mono, "sans-serif";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.8rem; /* 200% */
+}
+
+* {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #2F2E41;
+  max-height: 100vh;
+}
+
+.page {
+  width: 100rem;
+  margin: 0 auto;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 11rem;
+    margin-bottom: 13rem;
+    .texto{
+        width: 100%;
+        max-width: 609px;
+        height: 267px;
+        h1{
+            color: #FFF;
+            text-align: center;
+            font-family: JetBrains Mono, 'sans-serif';
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 4rem; /* 111.111% */
+        }
+        p{
+            color: #C2C2C2;
+            text-align: center;
+            font-family: Open Sans;
+            font-size: 1.4rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2.8rem; /* 175% */
+        }
+        span{
+            color: $green;
+        }
+    }
+}
+
+#Padlock{
+    position: fixed;
+    left: 2rem;
+    bottom: 2rem;
+}
